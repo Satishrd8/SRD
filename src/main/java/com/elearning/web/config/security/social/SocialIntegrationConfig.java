@@ -21,12 +21,10 @@ import org.springframework.social.linkedin.connect.LinkedInConnectionFactory;
 import org.springframework.social.security.AuthenticationNameUserIdSource;
 import org.springframework.social.twitter.connect.TwitterConnectionFactory;
 
-//@formatter:off
 /**
  * @author Satish Deshpande
  *
  */
-//@formatter:on
 @Configuration
 @EnableSocial
 public class SocialIntegrationConfig implements SocialConfigurer {
